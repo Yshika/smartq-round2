@@ -1,0 +1,18 @@
+@import "../../shared/__colors.scss";
+
+.header {
+  background-color: $yellow;
+  min-height: 8vh;
+
+  .header_input {
+    height: 8vh;
+    margin-left: 15rem;
+
+    .input_search {
+      height: 100%;
+      width: 50%;
+      background-color: $lightYellow;
+      border: none;
+    }
+  }
+}

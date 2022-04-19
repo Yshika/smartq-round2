@@ -1,0 +1,26 @@
+@import "../../shared/__colors.scss";
+
+.items_section {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  //   overflow-y: scroll;
+  .items {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 25px;
+    text-align: center;
+  }
+
+  .in_stock {
+    background-color: $green;
+    display: flex;
+    align-items: center
+  }
+
+  .out_stock {
+    background-color: $red;
+    display: flex;
+    align-items: center
+  }
+}

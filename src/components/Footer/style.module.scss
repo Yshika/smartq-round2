@@ -1,0 +1,14 @@
+@import "../../shared/__colors.scss";
+.footer {
+  min-height: 8vh;
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+  align-items: center;
+  background-color: $gray;
+
+  .btn {
+    background-color: $lightYellow;
+    padding: 10px;
+  }
+}

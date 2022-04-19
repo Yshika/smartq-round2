@@ -1,0 +1,25 @@
+@import "../../shared/__colors.scss";
+
+.main {
+  height: calc(100vh - 8vh - 8vh);
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  .sidebar {
+    background-color: $white;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+
+    .selected {
+      background-color: $lightYellow;
+    }
+
+    .unselected {
+      background-color: $white;
+    }
+  }
+
+  .items {
+    background-color: $lightYellow;
+  }
+}
