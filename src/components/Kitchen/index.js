@@ -12,7 +12,6 @@ const Kitchen = ({ menu }) => {
   }, [menu]);
 
   useEffect(() => {
-    console.log("kitchen items", kitchen, menu?.menuDetails?.[kitchen]);
     setKitchenItems(menu?.menuDetails?.[kitchen]);
   }, [kitchen]);
 
